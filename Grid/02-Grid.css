@@ -1,0 +1,37 @@
+div {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,
+            minmax(200px, 1fr));
+    /* gap: 32px 16px */
+    /* column-gap: 16px; */
+    /* row-gap: 32px; */
+    gap: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Esta sería una forma de hacer que se distribuyan las columnas en base al tamaño, pero hay otra forma mejor y mas sencilla */
+/* SERÍA LA FORMA DE ARRIBA */
+/* @media (width > 300px) {
+    div {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (width > 600px) {
+    div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+} */
+
+
+
+
+
+
+img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
